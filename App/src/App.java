@@ -32,6 +32,12 @@ public class App {
         doc2.procesar(); // Imprime: "Procesando el Recibo..."
         System.out.println("----------------------------------------");
         
+        // --- Ejercicio 3.3: Sobrecarga de métodos en clases hijas ---
+        System.out.println("--- Pruebas Ejercicio 3.3 ---");
+        Factura facturaSobrecargada = new Factura();
+        facturaSobrecargada.procesar(true); // Llama al método sobrecargado específico de Factura
+        System.out.println("----------------------------------------");
+
         // --- Ejercicio 4.2: Polimorfismo a través de Interfaces ---
         System.out.println("--- Pruebas Ejercicio 4.2 ---");
         Factura miFactura = new Factura();
